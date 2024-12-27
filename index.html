@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My-Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="smallscreens.css">
+    <script
+      src="https://kit.fontawesome.com/e7c341e5b1.js"
+    ></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav>
+          <img src="" alt="" />
+          <ul id="side-menu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark"  id="fa-circle-xmark"></i>
+          </ul>
+          <i class="fa-solid fa-bars" id="fa-bars" ></i>
+        </nav>
+        <div class="header-text">
+          <p>FrontEnd Engineer</p>
+          <h1>Hi, I am <span>Akpofure</span> Diegbe From Nigeria</h1>
+        </div>
+      </div>
+    </header>
+    <!--  about  -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="assets/IMG_3095.jpg" alt="a project" />
+          </div>
+          <div class="about-col-2">
+            <h1>About Me</h1>
+            <p>
+              Highly motivated and results-oriented aspiring Front-End Developer with 2 years of experience crafting engaging and user-friendly web experiences using HTML, CSS and JavaScript.Also very adept to control version like Git Possess a strong foundation in web development principles learned through online courses and independent projects. Proficient in CSS styling and comfortable working with JavaScript. Eager to contribute to a dynamic team, leverage my skills in a professional environment, and continuously expand my knowledge by learning new programming languages.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Front </span>End Engineer</li>
+
+                <li><span>AI </span>Prompt Engineer</li>
+                <li><span>Back </span>End Development (In progress)</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span> 2-3 Years of  Independent Web Development: </span> Proven track record of successfully building and deploying functional websites using a combination of HTML, CSS, and JavaScript. Demonstrated ability to translate design concepts into clean, user-friendly, and cross-browser compatible web pages.</li>
+
+                <li><span>Real-World Project Experience:  </span>Successfully completed and launched multiple real-world web projects, showcasing a strong understanding of web development principles and a commitment to delivering high-quality results.</li>
+                <li><span>Eager to Transition to Corporate Environment:   </span>Seeking a challenging and collaborative role within a dynamic organization to further develop my skills and contribute to innovative web projects.
+                  This section highlights your key experience in a concise and professional manner. It emphasizes your skills, real-world experience, and your eagerness to join a corporate setting.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  services -->
+    <section id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>  Website Design & Development:</h2>
+            <p>
+               Responsive Web Design: Creating websites that adapt seamlessly to various screen sizes (desktops, tablets, and mobile devices).
+               Custom Website Development: Building unique and tailored websites from scratch according to client specifications.
+               Website Maintenance & Updates: Maintaining existing websites, fixing bugs, and implementing updates and new features.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+
+            <h2>Front-End Development</h2>
+            <p>
+            HTML & CSS Implementation: Translating design mockups into clean, semantic HTML and CSS code.
+ JavaScript Integration: Implementing basic JavaScript functionality (e.g., form validation, animations, interactive elements).
+ Cross-Browser Compatibility: Ensuring websites function correctly across different browsers and devices.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-microchip"></i>
+            <h2>AI-Powered Content Creation</h2>
+            <p>
+              Utilizing AI to generate creative and engaging website copy, improving content quality and efficiency.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <!-- my-projects -->
+    <section id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My front-end  Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="assets/todo.JPG" alt="" />
+          <div class="layer">
+              <h3>To-do APP</h3>
+              <p>A to-do list app that allows you to keep track of activites you wish to complete over a period of time</p>
+            
+            <a href="https://akpofuree.github.io/to-do-list/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          </div>
+      
+        
+          <div class="work">
+            <img src="assets/guess.JPG" alt="" />
+            <div class="layer">
+              <h3>Guess the number</h3>
+              <p>This simple game challenges players to guess a randomly generated number. Key features include user-friendly interface, input validation, and informative feedback. Developed using HTML, CSS, and JavaScript, this project honed problem-solving skills and reinforced core JavaScript concepts like random number generation, user input handling, and conditional logic.
+            <a href="https://akpofuree.github.io/guess-the-number-game/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          
+          </div>
+        
+        
+          <div class="work">
+            <img src="assets/template.JPG" alt="" />
+            <div class="layer">
+              <h3>A simple web template</h3>
+              <p>This project involved recreating a simple web template found online, providing hands-on experience with core front-end development technologies.
+                 Key Features:
+                   Layout: Utilized CSS Grid and Flexbox for efficient and responsive layout, including features like gap for consistent spacing between elements.</p>
+            
+            <a href="https://akpofuree.github.io/webflow-template/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          
+          </div>
+      </div>
+
+      <div class="work-list">
+        <div class="work">
+          <img src="assets/IMG_5978.JPG" alt="" />
+        <div class="layer">
+            <h3>A dinner website</h3>
+            <p>This project involved recreating selected pages from a visually appealing dinner website, focusing on replicating its design and functionality using HTML, CSS, and potentially JavaScript.
+               Key Features:
+                 Visual Fidelity: Strived to accurately replicate the website's visual style, including:
+                   Color Palette: Implemented the same or similar color schemes for a consistent look and feel.
+                   Typography: Used matching or closely resembling fonts and font sizes to maintain visual harmony.
+                   Layout: Recreated the page layouts, including the positioning of elements and overall structure.
+                   Images: Incorporated and styled images appropriately, replicating their size, placement, and visual impact.</p>
+          
+          <a href="https://akpofuree.github.io/dinner-page/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        </div>
+    
+      
+        <div class="work">
+          <img src="assets/online-bank.JPG" alt="" />
+          <div class="layer">
+            <h3>Paystact (replica)</h3>
+            <p>Mobile Banking MP Stack Project
+              This project involved analyzing and replicating the HTML and CSS styling of a mobile banking application using the MP Stack framework.
+                Key Focus:
+                  HTML Structure: Analyzed the existing mobile banking application's HTML structure to understand how elements are organized and nested.
+                  CSS Styling:
+                      Color Palette, Typograph, Layout, User Interface (UI) Elements: Styled common UI elements like buttons, input fields, and navigation bars to match the original design.</p>
+          
+          <a href="https://akpofuree.github.io/pay-stand-dubbed/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        
+        </div>
+      
+      
+        <div class="work">
+          <img src="assets/Frame 241.png" alt="" />
+          <div class="layer">
+            <h3>Web4Kids</h3>
+            <p>  This collaborative project involved creating an engaging web application for children, focusing on user-friendliness, educational content, and seamless functionality. Key features included user registration, secure login, interactive learning modules, progress tracking, and easy user switching. As a key developer, I contributed to all aspects of the project, ensuring cross-platform compatibility and implementing crucial features like responsive navigation and user switching.
+              This summary condenses the information while still highlighting the key aspects of the project and your significant contributions.
+              </p>
+          
+          <a href="https://akpofuree.github.io/first-capstone-project/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        
+        </div>
+    </div>
+
+    <div class="container">
+      <h1 class="sub-title">My AI  Projects</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="assets/97abf126-b513-419a-b676-97e4979d5f94.JPG" alt="" />
+        <div class="layer">
+            <h3>My Canva</h3>
+            <p>
+              Canva Portfolio Project
+              This project involved creating an interactive online portfolio using Canva, showcasing my skills and experience through a visually appealing and engaging presentation.
+              This description highlights the key aspect of the project: creating an online portfolio using Canva.
+              </p>
+          
+          <a href="https://akpofure-canvapage.my.canva.site/brown-creative-and-modern-portfolio-presentation"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        </div>
+    
+      
+        <div class="work">
+          <img src="assets/97abf126-b513-419a-b676-97e4979d5f94.JPG" alt="" />
+          <div class="layer">
+            <h3>Teachable Machine</h3>
+            <p>
+              Here's a brief description of your Teachable Machine project:
+Teachable Machine Project
+This project involved training an AI model using Google Teachable Machine to recognize simple human actions, including blinking, clapping, whistling, and sneezing. The project involved collecting and labeling data, training the model, and testing its accuracy in identifying these actions.
+
+            </p>
+          <a href="https://teachablemachine.withgoogle.com/models/6C8_xiFZN/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        
+        </div>
+      
+      
+        <div class="work">
+          <img src="assets/97abf126-b513-419a-b676-97e4979d5f94.JPG" alt="" />
+          <div class="layer">
+            <h3>A Personal website made with AI</h3>
+            <p>      Developed a professional website, utilizing AI tools for content refinement and image optimization to enhance website quality and user experience.
+              This summary captures the key elements:
+                Website Creation: Developed a professional website.
+                AI Utilization: Employed AI tools for content and image optimization.
+                Outcome: Enhanced website quality and user experience.
+              </p>
+          <a href="https://akpofurediegbe.wixsite.com/techlink"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        
+        </div>
+    </div>
+    </div>
+
+    </section>
+    <!-- content-form -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><a href="mailto:akpofurediegbe@gmail.com"> <i class="fa-regular fa-paper-plane"></i> akpofurediegbe@gmail.com</a>
+            
+            </p>
+            <p> <i class="fa-solid fa-phone"></i>09037841541</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="assets/my -cv.pdf" download  class="btn btn-side">Download CV</a>
+          </div>
+
+          <div class="contact-right">
+            <form ><input type="text"  name="Name" placeholder="Your name " required></form>
+            <form ><input type="email"  name="email" placeholder="Your email " required></form>
+            <textarea name="message"   rows="10" placeholder="your message"></textarea>
+            <button type="submit"  class="btn btn-side" >Submit</button>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyrigth @ Akpofure</p>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
