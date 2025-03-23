@@ -156,8 +156,6 @@ about */
   display: flex;
   flex-direction: column;
   transition: background 0.5s, transform 0.5s;
-}
-.services-list div {
   background: #262262;
   padding: 4rem;
   font-size: 1.3rem;
@@ -186,11 +184,15 @@ about */
 #portfolio {
   padding: 4rem 0;
 }
+/* my-project */
 .work-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 4rem;
   margin-top: 5rem;
+}
+.reduce-font {
+  font-size: 1.2rem;
 }
 .work {
   border-radius: 1rem;
@@ -218,7 +220,7 @@ about */
   left: 0;
   overflow: hidden;
   font-size: 1.5rem;
-  transition: 0.5s;
+  transition: 1.5s;
   bottom: 0;
 }
 .layer h3 {
