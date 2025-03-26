@@ -34,6 +34,9 @@
     left: 2.5rem;
     cursor: pointer;
   }
+  .reduce-font{
+    font-size:1.1rem;
+  }
   .header-text h1 {
     width: 100%;
     font-size: 2.5rem;
