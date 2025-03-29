@@ -336,3 +336,15 @@ form .btn2 {
 nav .fa-solid {
   display: none;
 }
+.margin-top {
+  margin-top: 3rem;
+}
+.smaller-images {
+  display: flex !important;
+  margin-top: 2rem;
+  gap: 2rem;
+  justify-content: center !important;
+}
+.smaller-images .work {
+  width: 35rem;
+}
