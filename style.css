@@ -307,7 +307,6 @@ form textarea {
   width: 99.5%;
   border: 0;
   outline: none;
-  background: #262262;
   padding: 1.5rem;
   margin: 1.5rem 0;
   color: #fff;
@@ -329,7 +328,6 @@ form .btn2 {
   padding: 2.5rem 0;
   margin: auto;
   font-weight: 300;
-  background: #262262;
   margin-bottom: 1.5rem;
 }
 /* icons */

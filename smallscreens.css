@@ -68,4 +68,10 @@
   .smaller-images .work {
     width: 40rem !important;
   }
+  .sub-title {
+    font-size: 4rem;
+  }
+  .about-col-2 h1 {
+    font-size: 4rem;
+  }
 }
